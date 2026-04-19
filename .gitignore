@@ -1,0 +1,9 @@
+.env
+__pycache__/
+storefront/__pycache__/
+*.pyc
+
+storefront/__pycache__/settings.cpython-314.pyc
+storefront/__pycache__/settings.cpython-314.pyc
+storefront/__pycache__/settings.cpython-314.pyc
+token.txt
