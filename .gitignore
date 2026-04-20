@@ -1,9 +1,16 @@
 .env
+venv/
 __pycache__/
 storefront/__pycache__/
 *.pyc
+db.sqlite3
+.vscode/
+media/
 
 storefront/__pycache__/settings.cpython-314.pyc
 storefront/__pycache__/settings.cpython-314.pyc
 storefront/__pycache__/settings.cpython-314.pyc
 token.txt
+
+
+
