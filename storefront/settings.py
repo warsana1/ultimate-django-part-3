@@ -217,3 +217,11 @@ CACHES = {
         }
     }
 }
+
+STATIC_URL = 'static/'
+
+# Pastikan ini ada agar Django mencari folder static di root atau tiap app
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'core/static'),
+]
