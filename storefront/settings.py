@@ -157,6 +157,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
@@ -218,10 +219,3 @@ CACHES = {
     }
 }
 
-STATIC_URL = 'static/'
-
-# Pastikan ini ada agar Django mencari folder static di root atau tiap app
-
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'core/static'),
-]
