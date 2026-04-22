@@ -6,6 +6,7 @@ storefront/__pycache__/
 db.sqlite3
 .vscode/
 media/
+general.log
 /static/
 
 storefront/__pycache__/settings.cpython-314.pyc
