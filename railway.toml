@@ -4,3 +4,7 @@ buildCommand = "python manage.py collectstatic --noinput"
 
 [deploy]
 startCommand = "python manage.py migrate && gunicorn storefront.wsgi --bind 0.0.0.0:$PORT --log-file -"
+
+[variables]
+RAILPACK_BUILD_APT_PACKAGES = "default-libmysqlclient-dev pkg-config"
+RAILPACK_DEPLOY_APT_PACKAGES = "default-libmysqlclient-dev"
