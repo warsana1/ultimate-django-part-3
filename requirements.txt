@@ -5,7 +5,7 @@ django-cors-headers==4.9.0
 djangorestframework-simplejwt==5.5.1
 djoser==2.3.3
 python-dotenv==1.2.2
-mysqlclient==2.2.8
+PyMySQL==1.1.1
 Pillow==12.2.0
 drf-nested-routers==0.95.0
 celery==5.6.3
