@@ -8,9 +8,6 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 
-INSTALLED_APPS = [app for app in INSTALLED_APPS if app != 'debug_toolbar']
-MIDDLEWARE = [m for m in MIDDLEWARE if 'debug_toolbar' not in m]
-
 DATABASES = {
     'default': dj_database_url.config(env='DATABASE_URL', conn_max_age=600)
 }

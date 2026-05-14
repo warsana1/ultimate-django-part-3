@@ -43,7 +43,6 @@ INSTALLED_APPS = [
     'djoser',
     'silk',
     'playground',
-    'debug_toolbar',
     'store',
     'tags',
     'likes',
@@ -51,7 +50,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
